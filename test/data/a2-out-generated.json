@@ -1,0 +1,770 @@
+{
+  "id": "O001",
+  "question_id": "Q001",
+  "output": [
+    "NETO DURACION",
+    "Dura hasta por 10 días",
+    "Larga duración",
+    "Esmalte muy duradero",
+    "Esmalte de larga duración",
+    "Esmalte que tira una duración larga",
+    "Resistente al desgaste",
+    "Durabilidad",
+    "NETO COLOR",
+    "Color intenso",
+    "Mayor cobertura",
+    "NETO INGREDIENTES",
+    "Calcio para fortalecer",
+    "Biotina",
+    "Libres de químicos tóxicos",
+    "NETO APARIENCIA",
+    "Brillo",
+    "Brillo más duradero",
+    "NETO PRACTICIDAD",
+    "Secado rápido",
+    "Fácil aplicación",
+    "Una sola capa",
+    "Práctico",
+    "Fácil aplicación",
+    "NETO INNOVACION",
+    "Innovación",
+    "NETO BENEFICIOS",
+    "Protección",
+    "Cuidado de mis uñas",
+    "Hidratación con fórmula premium",
+    "Multi beneficios",
+    "Cinco en uno",
+    "Ingredientes únicos",
+    "Seguro de usar",
+    "Ahorro en tiempo y dinero",
+    "Resistente al desgaste",
+    "NETO OTROS",
+    "Decorado de esmalte con efecto duradero",
+    "Más durable",
+    "Más eficiente"
+  ],
+  "validation": {
+    "score": 0.92,
+    "traceability": {
+      "status": "good",
+      "coverage_percentage": 90,
+      "issues": [
+        "Algunas respuestas tienen conceptos extraídos que no reflejan completamente el contenido original.",
+        "Se identificaron respuestas con extracciones pobres, especialmente en términos de beneficios específicos."
+      ]
+    },
+    "missing_benefits_count": 2,
+    "missing_benefits_details": [
+      {
+        "benefit": "Resistente al desgaste",
+        "frequency": 4,
+        "examples": [
+          "Más beneficios dura mas y más brillo...",
+          "Duración del esmalte y secado rapido..."
+        ],
+        "reason": "Este beneficio se mencionó en varias respuestas pero no fue incluido en la lista final."
+      },
+      {
+        "benefit": "Fácil aplicación",
+        "frequency": 3,
+        "examples": [
+          "Que es un esmalte que sería muy práctico...",
+          "Que tiene 4 beneficios en un solo producto..."
+        ],
+        "reason": "Se mencionó la facilidad de uso, pero no se extrajo como un beneficio específico."
+      }
+    ],
+    "duplicates_count": 2,
+    "duplicate_pairs_details": [
+      {
+        "benefit_a": "Esmalte de larga duración",
+        "benefit_b": "Larga duración",
+        "confidence": 0.9,
+        "suggested_merge": "Larga duración"
+      },
+      {
+        "benefit_a": "Brillo",
+        "benefit_b": "Brillo más duradero",
+        "confidence": 0.85,
+        "suggested_merge": "Brillo"
+      }
+    ],
+    "merge_proposals": [
+      "Fusionar 'Esmalte de larga duración' y 'Larga duración' en 'Larga duración'",
+      "Fusionar 'Brillo' y 'Brillo más duradero' en 'Brillo'"
+    ],
+    "recommendation": "Se sugiere revisar las respuestas con extracciones pobres y considerar la inclusión de beneficios faltantes para mejorar la calidad del análisis."
+  },
+  "traceability": {
+    "total_answers": 101,
+    "total_concepts_extracted": 32,
+    "answers_mapping": {
+      "1": {
+        "original_answer": "Maxima duración del esmalte hasta por 10 días sin desgaste del color",
+        "extracted_concepts": [
+          "Dura hasta por 10 días"
+        ]
+      },
+      "2": {
+        "original_answer": "La duración del producto en tus uñas",
+        "extracted_concepts": [
+          "Larga duración"
+        ]
+      },
+      "3": {
+        "original_answer": "Más beneficios dura mas y más brillo",
+        "extracted_concepts": [
+          "Larga duración",
+          "Brillo"
+        ]
+      },
+      "4": {
+        "original_answer": "La duración del esmalte",
+        "extracted_concepts": [
+          "Larga duración"
+        ]
+      },
+      "5": {
+        "original_answer": "Color intenso, calcio para fortalecer mis uñas",
+        "extracted_concepts": [
+          "Color intenso",
+          "Calcio para fortalecer"
+        ]
+      },
+      "6": {
+        "original_answer": "Un esmalte de secado super rápido",
+        "extracted_concepts": [
+          "Secado rápido"
+        ]
+      },
+      "7": {
+        "original_answer": "Que es un esmalte de secado rápido y te da un color intacto por 10 dias",
+        "extracted_concepts": [
+          "Secado rápido",
+          "Dura hasta por 10 días"
+        ]
+      },
+      "8": {
+        "original_answer": "Libres de químicos tóxicos",
+        "extracted_concepts": [
+          "Libres de químicos tóxicos"
+        ]
+      },
+      "9": {
+        "original_answer": "Que es un esmalte que sería muy práctico",
+        "extracted_concepts": [
+          "Práctico"
+        ]
+      },
+      "10": {
+        "original_answer": "Uñas intactas y protegidas por 10 días",
+        "extracted_concepts": [
+          "Uñas intactas",
+          "Protección",
+          "Dura hasta por 10 días"
+        ]
+      },
+      "11": {
+        "original_answer": "Duración del esmalte y secado rapido",
+        "extracted_concepts": [
+          "Larga duración",
+          "Secado rápido"
+        ]
+      },
+      "12": {
+        "original_answer": "Que da 10 días de color",
+        "extracted_concepts": [
+          "Dura hasta por 10 días"
+        ]
+      },
+      "13": {
+        "original_answer": "El 1 esmalte con color que protege y es de larga duración",
+        "extracted_concepts": [
+          "Larga duración",
+          "Protección"
+        ]
+      },
+      "14": {
+        "original_answer": "Un color de esmalte que dura hasta por 10 días y la pintura está intacta",
+        "extracted_concepts": [
+          "Dura hasta por 10 días",
+          "Uñas intactas"
+        ]
+      },
+      "15": {
+        "original_answer": "Un producto renovador con mayor duración secado al instante rápido mantiene su brillo durante 10 días",
+        "extracted_concepts": [
+          "Larga duración",
+          "Secado rápido",
+          "Brillo"
+        ]
+      },
+      "16": {
+        "original_answer": "Esmalte con 10 días de duración no contiene ingredientes daniños, proporciona cuidado y brillo a la uña",
+        "extracted_concepts": [
+          "Dura hasta por 10 días",
+          "Libres de químicos tóxicos",
+          "Cuidado de mis uñas"
+        ]
+      },
+      "17": {
+        "original_answer": "Mayor duracion en tu esmalte hasta por 10 dias",
+        "extracted_concepts": [
+          "Larga duración",
+          "Dura hasta por 10 días"
+        ]
+      },
+      "18": {
+        "original_answer": "Que es un producto que tiene muchos días de duración y deja un buen color en las uñas",
+        "extracted_concepts": [
+          "Larga duración",
+          "Color intenso"
+        ]
+      },
+      "19": {
+        "original_answer": "Larga duración y secado rapido",
+        "extracted_concepts": [
+          "Larga duración",
+          "Secado rápido"
+        ]
+      },
+      "20": {
+        "original_answer": "Que tiene 4 beneficios en un solo producto",
+        "extracted_concepts": [
+          "Multi beneficios"
+        ]
+      },
+      "21": {
+        "original_answer": "de uñas intactas no se remueve la base de uñas",
+        "extracted_concepts": [
+          "Uñas intactas"
+        ]
+      },
+      "22": {
+        "original_answer": "Que el esmalte dura intacto hasta por 10 dias",
+        "extracted_concepts": [
+          "Dura hasta por 10 días"
+        ]
+      },
+      "23": {
+        "original_answer": "Que tiene larga duración y que protege tus uñas.",
+        "extracted_concepts": [
+          "Larga duración",
+          "Protección"
+        ]
+      },
+      "24": {
+        "original_answer": "que combina varios beneficios en uno y que es de larga duracion",
+        "extracted_concepts": [
+          "Multi beneficios",
+          "Larga duración"
+        ]
+      },
+      "25": {
+        "original_answer": "es un esmalte de larga duracion, secado rapido y cuida las uñas",
+        "extracted_concepts": [
+          "Larga duración",
+          "Secado rápido",
+          "Cuidado de mis uñas"
+        ]
+      },
+      "26": {
+        "original_answer": "uñas mas fuertes",
+        "extracted_concepts": [
+          "Calcio para fortalecer"
+        ]
+      },
+      "27": {
+        "original_answer": "Hidratación con fórmula premium",
+        "extracted_concepts": [
+          "Hidratación con fórmula premium"
+        ]
+      },
+      "28": {
+        "original_answer": "Su cinco en uno",
+        "extracted_concepts": [
+          "Cinco en uno"
+        ]
+      },
+      "29": {
+        "original_answer": "Larga duración protección un tono unico",
+        "extracted_concepts": [
+          "Larga duración",
+          "Color intenso"
+        ]
+      },
+      "30": {
+        "original_answer": "Un esmalte diferente al mercado y muy tentativo para probarlo",
+        "extracted_concepts": [
+          "Esmalte muy duradero"
+        ]
+      },
+      "31": {
+        "original_answer": "Uñas intactas por 10 dias",
+        "extracted_concepts": [
+          "Uñas intactas",
+          "Dura hasta por 10 días"
+        ]
+      },
+      "32": {
+        "original_answer": "Con una sola pasada tienes la protección del calcio y biotina que da dureza a las uñas con un acabado firme y resistente que dura hasta por 10 días.",
+        "extracted_concepts": [
+          "Calcio para fortalecer",
+          "Dura hasta por 10 días"
+        ]
+      },
+      "33": {
+        "original_answer": "secado rapido y seguro",
+        "extracted_concepts": [
+          "Secado rápido"
+        ]
+      },
+      "34": {
+        "original_answer": "Beneficios de el producto",
+        "extracted_concepts": [
+          "Durabilidad"
+        ]
+      },
+      "35": {
+        "original_answer": "que sea vegano libre de crueldad",
+        "extracted_concepts": [
+          "Libres de químicos tóxicos"
+        ]
+      },
+      "36": {
+        "original_answer": "Proteger mis uñas y una duración de varios días",
+        "extracted_concepts": [
+          "Protección",
+          "Larga duración"
+        ]
+      },
+      "37": {
+        "original_answer": "Un esmalte que protegerá mis uñas con ingredientes únicos",
+        "extracted_concepts": [
+          "Ingredientes únicos"
+        ]
+      },
+      "38": {
+        "original_answer": "Me gustó mucho que dura 10 días y que el secado es rápido.",
+        "extracted_concepts": [
+          "Dura hasta por 10 días",
+          "Secado rápido"
+        ]
+      },
+      "39": {
+        "original_answer": "La calidad y beneficios de los esmaltes de uñas además de su duración",
+        "extracted_concepts": [
+          "Durabilidad"
+        ]
+      },
+      "40": {
+        "original_answer": "Dura por mucho más tiempo fortaleza",
+        "extracted_concepts": [
+          "Larga duración"
+        ]
+      },
+      "41": {
+        "original_answer": "Decorado de esmalte con efecto duradero",
+        "extracted_concepts": [
+          "Decorado de esmalte con efecto duradero"
+        ]
+      },
+      "42": {
+        "original_answer": "Un esmalte de alta duración hasta diez día y libre de más de 20 químicos",
+        "extracted_concepts": [
+          "Dura hasta por 10 días",
+          "Libres de químicos tóxicos"
+        ]
+      },
+      "43": {
+        "original_answer": "Que dura mucho y es resistente",
+        "extracted_concepts": [
+          "Larga duración",
+          "Resistente al desgaste"
+        ]
+      },
+      "44": {
+        "original_answer": "Secado más rápido y brillo más duradero",
+        "extracted_concepts": [
+          "Secado rápido",
+          "Brillo más duradero"
+        ]
+      },
+      "45": {
+        "original_answer": "De alta calidad y práctica",
+        "extracted_concepts": [
+          "Esmalte de alta calidad"
+        ]
+      },
+      "46": {
+        "original_answer": "Que tengo color intacto por más de 10 días",
+        "extracted_concepts": [
+          "Dura hasta por 10 días"
+        ]
+      },
+      "47": {
+        "original_answer": "7 días de color y fortalecimiento",
+        "extracted_concepts": [
+          "Dura hasta por 10 días",
+          "Calcio para fortalecer"
+        ]
+      },
+      "48": {
+        "original_answer": "Esmalte de larga duracion",
+        "extracted_concepts": [
+          "Esmalte de larga duración"
+        ]
+      },
+      "49": {
+        "original_answer": "Que es seguro de usar al no contener sustancias tóxicas",
+        "extracted_concepts": [
+          "Libres de químicos tóxicos"
+        ]
+      },
+      "50": {
+        "original_answer": "Esmalte de Larga duración",
+        "extracted_concepts": [
+          "Esmalte de larga duración"
+        ]
+      },
+      "51": {
+        "original_answer": "Un esmalte de alta duración con protección para las uñaa",
+        "extracted_concepts": [
+          "Esmalte de alta duración",
+          "Protección"
+        ]
+      },
+      "52": {
+        "original_answer": "Me gusta su duración de intenso color y brillo",
+        "extracted_concepts": [
+          "Dura hasta por 10 días",
+          "Color intenso",
+          "Brillo"
+        ]
+      },
+      "53": {
+        "original_answer": "Beneficio 4X duración hasta por 10 días! Increíble",
+        "extracted_concepts": [
+          "Dura hasta por 10 días"
+        ]
+      },
+      "54": {
+        "original_answer": "Uñas protegidas, colores intensos y durabilidad",
+        "extracted_concepts": [
+          "Uñas intactas",
+          "Color intenso",
+          "Larga duración"
+        ]
+      },
+      "55": {
+        "original_answer": "Los ingredientes y la duración del esmalte",
+        "extracted_concepts": [
+          "Durabilidad"
+        ]
+      },
+      "56": {
+        "original_answer": "Duración, libre de tóxicos,",
+        "extracted_concepts": [
+          "Larga duración",
+          "Libres de químicos tóxicos"
+        ]
+      },
+      "57": {
+        "original_answer": "Secado rápido y duración",
+        "extracted_concepts": [
+          "Secado rápido",
+          "Larga duración"
+        ]
+      },
+      "58": {
+        "original_answer": "Es un producto libre de muchas toxinas y no daña tus uñas",
+        "extracted_concepts": [
+          "Libres de químicos tóxicos"
+        ]
+      },
+      "59": {
+        "original_answer": "esmalte con ingredientes que dan mayyor duracióny protecion",
+        "extracted_concepts": [
+          "Larga duración",
+          "Protección"
+        ]
+      },
+      "60": {
+        "original_answer": "La durabilidad del esmalte, protección contra productos químicos y estarán saludables",
+        "extracted_concepts": [
+          "Durabilidad",
+          "Protección"
+        ]
+      },
+      "61": {
+        "original_answer": "mayor cobertura, mas durable, mas eficiente",
+        "extracted_concepts": [
+          "Mayor cobertura",
+          "Más durable",
+          "Más eficiente"
+        ]
+      },
+      "62": {
+        "original_answer": "Larga duración y los ingredientes muy innovadores",
+        "extracted_concepts": [
+          "Larga duración",
+          "Innovación"
+        ]
+      },
+      "63": {
+        "original_answer": "Un esmalte con multi beneficios",
+        "extracted_concepts": [
+          "Multi beneficios"
+        ]
+      },
+      "64": {
+        "original_answer": "Libre de sustancias tóxicas, secado rápido , ingredientes de alta calidad",
+        "extracted_concepts": [
+          "Libres de químicos tóxicos",
+          "Secado rápido",
+          "Ingredientes únicos"
+        ]
+      },
+      "65": {
+        "original_answer": "Uñas intactas hasta por 10 Díaz",
+        "extracted_concepts": [
+          "Uñas intactas",
+          "Dura hasta por 10 días"
+        ]
+      },
+      "66": {
+        "original_answer": "Seguro y de fácil aplicación",
+        "extracted_concepts": [
+          "Fácil aplicación"
+        ]
+      },
+      "67": {
+        "original_answer": "Buscar en mejor producto en calidad",
+        "extracted_concepts": [
+          "Esmalte de alta calidad"
+        ]
+      },
+      "68": {
+        "original_answer": "Ponerse más bonitas las manos",
+        "extracted_concepts": [
+          "Cuidado de mis uñas"
+        ]
+      },
+      "69": {
+        "original_answer": "La durabilidad del wsmalte",
+        "extracted_concepts": [
+          "Durabilidad"
+        ]
+      },
+      "70": {
+        "original_answer": "Esmalte muy duradero y resistente al tiempo",
+        "extracted_concepts": [
+          "Esmalte muy duradero"
+        ]
+      },
+      "71": {
+        "original_answer": "La duración del esmalte",
+        "extracted_concepts": [
+          "Larga duración"
+        ]
+      },
+      "72": {
+        "original_answer": "Mejor esmalte duradero",
+        "extracted_concepts": [
+          "Esmalte muy duradero"
+        ]
+      },
+      "73": {
+        "original_answer": "El esmalte dura hasta por 10. Días y está libre de más de 20 sustancia tóxicas.",
+        "extracted_concepts": [
+          "Dura hasta por 10 días",
+          "Libres de químicos tóxicos"
+        ]
+      },
+      "74": {
+        "original_answer": "Las.propiedades del esmalte de uñas",
+        "extracted_concepts": [
+          "Durabilidad"
+        ]
+      },
+      "75": {
+        "original_answer": "Ahorro en tiempo y dinero",
+        "extracted_concepts": [
+          "Ahorro en tiempo y dinero"
+        ]
+      },
+      "76": {
+        "original_answer": "Excelente opción en esmalte que protege tus uñas",
+        "extracted_concepts": [
+          "Protección",
+          "Larga duración"
+        ]
+      },
+      "77": {
+        "original_answer": "Que no me tenga que estar retocando las uñas dos veces a la semana",
+        "extracted_concepts": [
+          "Larga duración"
+        ]
+      },
+      "78": {
+        "original_answer": "Con calcio lo cual me parece muy bueno para el cuidado de uñas",
+        "extracted_concepts": [
+          "Calcio para fortalecer"
+        ]
+      },
+      "79": {
+        "original_answer": "10 dias de duracion con brillo",
+        "extracted_concepts": [
+          "Dura hasta por 10 días",
+          "Brillo"
+        ]
+      },
+      "80": {
+        "original_answer": "Que es un esmalte muy duradero",
+        "extracted_concepts": [
+          "Esmalte muy duradero"
+        ]
+      },
+      "81": {
+        "original_answer": "que la biotina y el calcio hace que el esmalte dure por mas tiempo",
+        "extracted_concepts": [
+          "Dura hasta por 10 días",
+          "Calcio para fortalecer"
+        ]
+      },
+      "82": {
+        "original_answer": "Q dura más tiempo el color y el brillo d tus esmalte es más intenso",
+        "extracted_concepts": [
+          "Dura hasta por 10 días",
+          "Brillo"
+        ]
+      },
+      "83": {
+        "original_answer": "Esmalte de alta duración y fortalecedor de uñas",
+        "extracted_concepts": [
+          "Esmalte de alta duración",
+          "Calcio para fortalecer"
+        ]
+      },
+      "84": {
+        "original_answer": "Durabilidad, innovación.",
+        "extracted_concepts": [
+          "Durabilidad",
+          "Innovación"
+        ]
+      },
+      "85": {
+        "original_answer": "Un solo producto grandes beneficios",
+        "extracted_concepts": [
+          "Multi beneficios"
+        ]
+      },
+      "86": {
+        "original_answer": "Esmalte que tir una duración larga y que ayuda a las personas ya que se mantiene intacto",
+        "extracted_concepts": [
+          "Larga duración",
+          "Uñas intactas"
+        ]
+      },
+      "87": {
+        "original_answer": "Un esmalte con duración de 10 días resistente al desgaste diario",
+        "extracted_concepts": [
+          "Dura hasta por 10 días",
+          "Resistente al desgaste"
+        ]
+      },
+      "88": {
+        "original_answer": "La duración del producto",
+        "extracted_concepts": [
+          "Larga duración"
+        ]
+      },
+      "89": {
+        "original_answer": "que seca mas rapido",
+        "extracted_concepts": [
+          "Secado rápido"
+        ]
+      },
+      "90": {
+        "original_answer": "Un esmalte que dura por 10 días es genial",
+        "extracted_concepts": [
+          "Dura hasta por 10 días"
+        ]
+      },
+      "91": {
+        "original_answer": "Fortalecer laa uñas, dura por 10 días",
+        "extracted_concepts": [
+          "Calcio para fortalecer",
+          "Dura hasta por 10 días"
+        ]
+      },
+      "92": {
+        "original_answer": "Un esmalte de uñas con beneficios",
+        "extracted_concepts": [
+          "Multi beneficios"
+        ]
+      },
+      "93": {
+        "original_answer": "Está libre de tóxicos, y muy durable,",
+        "extracted_concepts": [
+          "Libres de químicos tóxicos",
+          "Durabilidad"
+        ]
+      },
+      "94": {
+        "original_answer": "duración del esmalte hasta por 10 días",
+        "extracted_concepts": [
+          "Dura hasta por 10 días"
+        ]
+      },
+      "95": {
+        "original_answer": "Seca rápido en segundos,su pincel es de mucha precisión",
+        "extracted_concepts": [
+          "Secado rápido"
+        ]
+      },
+      "96": {
+        "original_answer": "Larga duración y tiene biotina",
+        "extracted_concepts": [
+          "Larga duración",
+          "Biotina"
+        ]
+      },
+      "97": {
+        "original_answer": "Protección y larga duración del esmalte",
+        "extracted_concepts": [
+          "Protección",
+          "Larga duración"
+        ]
+      },
+      "98": {
+        "original_answer": "Una sola capa no se necesita base ni brillo, libre de 20 sustancias tóxicas",
+        "extracted_concepts": [
+          "Una sola capa",
+          "Libres de químicos tóxicos"
+        ]
+      },
+      "99": {
+        "original_answer": "Brillo y color intenso y fortalecedor",
+        "extracted_concepts": [
+          "Brillo",
+          "Color intenso",
+          "Calcio para fortalecer"
+        ]
+      },
+      "100": {
+        "original_answer": "Brillo, cuidado de mis uñas",
+        "extracted_concepts": [
+          "Brillo",
+          "Cuidado de mis uñas"
+        ]
+      },
+      "101": {
+        "original_answer": "10 días de duración",
+        "extracted_concepts": [
+          "Dura hasta por 10 días"
+        ]
+      }
+    }
+  }
+}
