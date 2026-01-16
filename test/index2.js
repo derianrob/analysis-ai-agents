@@ -1,6 +1,6 @@
 const OpenAI = require("openai");
 const fs = require("fs");
-
+require("dotenv").config();
 /**
  * Agente inteligente para tokenización y categorización de respuestas de encuesta
  * Con validación en bucle para máxima precisión (~99%)
@@ -505,8 +505,7 @@ Responde en JSON:
       };
 
       // Guardar resultado
-      const outputPath =
-        "/Users/derianalegra/Desktop/Udemy/qp/test/data/a2-out-generated.json";
+      const outputPath = "data/a2-out-generated.json";
       fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
 
       console.log("\n════════════════════════════════════════════════════════");
@@ -543,7 +542,7 @@ Responde en JSON:
 async function main() {
   try {
     // Verificar API key
-    const apiKey = "// Reemplaza";
+    const apiKey = process.env.OPENAI_API_KEY;
     if (!apiKey) {
       console.error("❌ Error: OPENAI_API_KEY no está configurada");
       console.error("   Configura: export OPENAI_API_KEY='tu-clave-api'");
@@ -551,7 +550,7 @@ async function main() {
     }
 
     // Cargar datos de entrada
-    const inputPath = "/Users/derianalegra/Desktop/Udemy/qp/test/data/a2.json";
+    const inputPath = "data/a2.json";
     const questionData = JSON.parse(fs.readFileSync(inputPath, "utf-8"));
 
     // Ejecutar agente
