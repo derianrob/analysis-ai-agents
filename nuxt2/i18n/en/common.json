@@ -1,0 +1,7 @@
+{
+  "welcome_message": "Welcome to Nuxt + Smile!",
+  "description": "This is a starter template for a Nuxt project with Tailwind CSS, i18n, and Smile UI.",
+  "get_started": "Get started now",
+  "learn_more": "Learn more",
+  "select_language": "Select language"
+}

@@ -1,0 +1,13 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@alegradev/smile-ui-next": [
+        "node_modules/@alegradev/smile-ui-next/types/main.d.ts"
+      ]
+    },
+    "types": ["./node_modules/@alegradev/smile-ui-next/types/main.d.ts"]
+  }
+}
