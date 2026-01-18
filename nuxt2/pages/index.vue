@@ -2,6 +2,7 @@
   import { BarChart3, Sparkles, FileSpreadsheet, Zap } from 'lucide-vue-next'
   import { TEMPLATES } from '../types/concepts'
   import { useRouter } from 'vue-router'
+  import TemplateCard from '../components/templates/TemplateCard.vue'
 
   const router = useRouter()
 
@@ -15,10 +16,14 @@
 <template>
   <div class="min-h-screen bg-background">
     <!-- Header -->
-    <header class="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
+    <header
+      class="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50"
+    >
       <div class="container mx-auto px-4 h-16 flex items-center">
         <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-lg shadow-primary/20">
+          <div
+            class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-lg shadow-primary/20"
+          >
             <BarChart3 class="w-5 h-5 text-primary-foreground" />
           </div>
           <div>
@@ -32,20 +37,24 @@
     <!-- Hero section -->
     <section class="py-16 md:py-24">
       <div class="container mx-auto px-4 text-center">
-        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
+        <div
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6"
+        >
           <Sparkles class="w-4 h-4" />
           Análisis potenciado con IA
         </div>
 
         <h2
-          <h2 class="text-4xl md:text-5xl font-bold text-foreground mb-4 max-w-3xl mx-auto leading-tight">
+          class="text-4xl md:text-5xl font-bold text-foreground mb-4 max-w-3xl mx-auto leading-tight"
+        >
           Transforma respuestas abiertas en
           <span class="text-primary"> insights accionables</span>
         </h2>
 
         <p class="text-lg text-muted-foreground max-w-2xl mx-auto mb-12">
-          Selecciona una plantilla de análisis para comenzar. Nuestra IA extraerá 
-          conceptos clave y te ayudará a visualizar patrones en tus datos.
+          Selecciona una plantilla de análisis para comenzar. Nuestra IA
+          extraerá conceptos clave y te ayudará a visualizar patrones en tus
+          datos.
         </p>
 
         <!-- Features -->
@@ -87,8 +96,12 @@
           />
 
           <!-- Coming soon placeholder -->
-          <div class="p-6 rounded-2xl border-2 border-dashed border-border bg-muted/30 text-center">
-            <div class="w-14 h-14 rounded-xl bg-muted flex items-center justify-center mx-auto mb-4">
+          <div
+            class="p-6 rounded-2xl border-2 border-dashed border-border bg-muted/30 text-center"
+          >
+            <div
+              class="w-14 h-14 rounded-xl bg-muted flex items-center justify-center mx-auto mb-4"
+            >
               <Sparkles class="w-7 h-7 text-muted-foreground" />
             </div>
             <h4 class="font-medium text-muted-foreground mb-1">
@@ -104,7 +117,9 @@
 
     <!-- Footer -->
     <footer class="border-t border-border py-8">
-      <div class="container mx-auto px-4 text-center text-sm text-muted-foreground">
+      <div
+        class="container mx-auto px-4 text-center text-sm text-muted-foreground"
+      >
         >
         <p>© 2024 QP Research. Herramienta de análisis de insights.</p>
       </div>
